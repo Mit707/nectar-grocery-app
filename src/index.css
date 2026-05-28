@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 100%;
+  }
+
+  body {
+    @apply bg-white text-nectar-black antialiased;
+    overscroll-behavior: none;
+    height: 100%;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply max-w-md mx-auto min-h-screen relative bg-white overflow-hidden;
+  }
+
+  .desktop-shell {
+    @apply lg:max-w-7xl lg:mx-auto lg:px-6;
+  }
+
+  .auth-input-underline {
+    @apply w-full bg-transparent border-0 border-b border-nectar-border pb-3 text-base
+      text-nectar-black placeholder:text-nectar-light focus:outline-none
+      focus:border-primary transition-colors duration-150;
+  }
+
+  .product-card {
+    @apply bg-white rounded-2xl border border-nectar-border p-3 flex flex-col shadow-card;
+  }
+
+  .skeleton {
+    @apply bg-nectar-bg rounded-lg animate-pulse;
+  }
+}
+
+/* Auth background — always full cover, no tile */
+.bg-auth-gradient {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+@layer utilities {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.page-enter {
+  animation: fadeSlideIn 0.2s ease-out both;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

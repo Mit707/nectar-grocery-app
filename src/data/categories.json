@@ -1,0 +1,58 @@
+[
+  {
+    "id": "fresh-fruits-vegetables",
+    "name": "Fresh Fruits & Vegetable",
+    "image": "/images/categories/fresh-fruits-vegetables.png",
+    "bgClass": "bg-[#F2FFF2]",
+    "borderClass": "border-[#C8F0C8]"
+  },
+  {
+    "id": "cooking-oil-ghee",
+    "name": "Cooking Oil & Ghee",
+    "image": "/images/categories/cooking-oil-ghee.png",
+    "bgClass": "bg-[#FFF3E5]",
+    "borderClass": "border-[#FFD9A8]"
+  },
+  {
+    "id": "meat-fish",
+    "name": "Meat & Fish",
+    "image": "/images/categories/meat-fish.png",
+    "bgClass": "bg-[#FFF1F0]",
+    "borderClass": "border-[#FFCCC9]"
+  },
+  {
+    "id": "bakery-snacks",
+    "name": "Bakery & Snacks",
+    "image": "/images/categories/bakery-snacks.png",
+    "bgClass": "bg-[#F5F0FF]",
+    "borderClass": "border-[#D9C8FF]"
+  },
+  {
+    "id": "dairy-eggs",
+    "name": "Dairy & Eggs",
+    "image": "/images/categories/dairy-eggs.png",
+    "bgClass": "bg-[#FFFBE5]",
+    "borderClass": "border-[#FFE89A]"
+  },
+  {
+    "id": "beverages",
+    "name": "Beverages",
+    "image": "/images/categories/beverages.png",
+    "bgClass": "bg-[#E5F4FF]",
+    "borderClass": "border-[#A8D8FF]"
+  },
+  {
+    "id": "cereals",
+    "name": "Cereals",
+    "image": "/images/categories/cereals.png",
+    "bgClass": "bg-[#E5FFFC]",
+    "borderClass": "border-[#A8F0E8]"
+  },
+  {
+    "id": "pulses",
+    "name": "Pulses",
+    "image": "/images/categories/pulses.png",
+    "bgClass": "bg-[#FFF0F5]",
+    "borderClass": "border-[#FFCCE0]"
+  }
+]

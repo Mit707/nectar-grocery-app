@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 60" fill="none">
+  <!-- Left leaf -->
+  <path d="M22 16 C18 10 10 9 7 11 C9 17 17 18 22 16Z" fill="#53B175"/>
+  <!-- Center leaf -->
+  <path d="M24 14 C23 6 24 0 24 0 C24 0 25 6 24 14Z" fill="#53B175" stroke="#53B175" stroke-width="1"/>
+  <!-- Right leaf -->
+  <path d="M26 16 C30 10 38 9 41 11 C39 17 31 18 26 16Z" fill="#53B175"/>
+  <!-- Carrot body -->
+  <path d="M16 18 C14 20 12 26 12 32 C12 42 18 54 24 58 C30 54 36 42 36 32 C36 26 34 20 32 18 C29 16 19 16 16 18Z" fill="#F4A24C"/>
+  <!-- Carrot texture lines -->
+  <path d="M16 26 Q24 23 32 26" stroke="#E0882A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M14 33 Q24 30 34 33" stroke="#E0882A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M15 40 Q24 37 33 40" stroke="#E0882A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background -->
+  <circle cx="60" cy="60" r="60" fill="#EEF7F1"/>
+
+  <!-- Body / uniform -->
+  <ellipse cx="60" cy="108" rx="36" ry="28" fill="#53B175"/>
+
+  <!-- Collar V -->
+  <path d="M48 82 L60 94 L72 82" fill="#3D9960"/>
+
+  <!-- Neck -->
+  <rect x="54" y="72" width="12" height="14" rx="4" fill="#F5C5A3"/>
+
+  <!-- Head -->
+  <circle cx="60" cy="57" r="22" fill="#F5C5A3"/>
+
+  <!-- Hair (dark brown) -->
+  <path d="M38 54 Q38 33 60 33 Q82 33 82 54" fill="#3B2005"/>
+
+  <!-- Helmet visor -->
+  <path d="M37 52 Q37 31 60 31 Q83 31 83 52 L83 57 Q83 62 77 62 L43 62 Q37 62 37 57 Z" fill="#53B175"/>
+  <rect x="35" y="52" width="50" height="6" rx="3" fill="#3D9960"/>
+
+  <!-- Nectar "N" badge on helmet -->
+  <circle cx="60" cy="44" r="8" fill="#3D9960"/>
+  <text x="60" y="48" text-anchor="middle" font-size="10" font-weight="bold" fill="white" font-family="Arial,sans-serif">N</text>
+
+  <!-- Eyes -->
+  <circle cx="52" cy="60" r="3" fill="#2C1A0A"/>
+  <circle cx="68" cy="60" r="3" fill="#2C1A0A"/>
+  <circle cx="53" cy="59" r="1" fill="white"/>
+  <circle cx="69" cy="59" r="1" fill="white"/>
+
+  <!-- Smile -->
+  <path d="M52 71 Q60 78 68 71" stroke="#C07A5A" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Delivery bag strap hint -->
+  <path d="M24 95 Q60 88 96 95" stroke="#3D9960" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
