@@ -335,10 +335,10 @@ All global state is managed with **Zustand v5** and persisted to `localStorage` 
 
 **Mitul Vala**
 
-- GitHub: [https://github.com/Mit707/nectar-grocery-app](REPOSITORY URL)
+- GitHub: https://github.com/Mit707/nectar-grocery-app
 
 ---
 
 ## License
 
-This project is for educational / assignment purposes. All rights reserved &copy; 2025 Mitul Vala.
+This project is for assignment purposes. All rights reserved &copy; 2025 Mitul Vala.
